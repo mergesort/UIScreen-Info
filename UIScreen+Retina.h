@@ -10,8 +10,19 @@
 
 @interface UIScreen (Info.h)
 
+/*
+ Find out if the screen is retina
+ */
 + (BOOL)isRetina;
+
+/*
+ For those of you not using auto-layout
+ */
 + (BOOL)is4Inch;
+
+/*
+ Get the rasterization scale of the screen (for retina or not)
+ */
 + (CGFloat)rasterizationScale;
 
 @end
