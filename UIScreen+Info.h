@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIScreen (Info.h)
+@interface UIScreen (Info)
 
 /*
  Find out if the screen is retina
